@@ -3,15 +3,15 @@
     <title>Portfolio</title>
     <style>
       body{margin:0;font-family:sans-serif;overflow-y:hidden}iframe{border:0;transition:width 1s,height 1s,top 1s}
-      @keyframes pulse {0%,100%{background-color:#000069}50%{background-color:#0000ff}}
-      div.titlebar{color:#ffffff;mix-blend-mode:difference;height:4vh;animation:pulse 20s infinite}
+      @keyframes pulse {0%,100%{background-color:#000}50%{background-color:#00f}}
+      div.titlebar{height:4vh;animation:pulse 10s infinite}span.titlebar{color:#00f;mix-blend-mode:difference}
       div.blowup, div.blowup iframe{height:48vh;width:50vw}div.blowup{float:left;clear:left}
       div.blowup iframe:hover{position:absolute;top:4vh !important;width:100vw;height:100vh}
       div.poe, div.poe iframe {height:96vh;width:50vw}
     </style>
   </head>
   <body>
-    <div class="titlebar"><span style="font-size:4vh">Portfolio | </span>credits!</div>
+    <div class="titlebar"><span class="titlebar"><span style="font-size:4vh">Portfolio</span>credits!</span></div>
     <div class="poe" style="float:right"><iframe src="https://katek13.github.io/Poe/"></iframe></div>
     <div class="blowup"><iframe style="top:4vh" src="https://openprocessing.org/sketch/2581880/embed/"></iframe></div>
     <div class="blowup"><iframe style="top:52vh" src="https://openprocessing.org/sketch/2581959/embed/"></iframe></div>

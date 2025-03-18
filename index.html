@@ -2,20 +2,16 @@
   <head>
     <title>Portfolio</title>
     <style>
-      h1{margin-bottom:0}body{margin:0;font-family:sans-serif}
-      table{width:100%;height:90vh;border:0}
-      td{min-height:45vh;min-width:45vw;max-height:55vh;max-width:55vw}
+      h1{margin-bottom:0}body{margin:0;font-family:sans-serif}div.blowup{height:40vh}
       iframe{min-width:1;min-height:1;width:100%;height:100%;transition:min-width 2s,min-height 2s}
-      iframe:hover{position:absolute;min-width:90vw;min-height:80vh}
+      div.blowup iframe:hover{position:absolute;min-width:90vw;min-height:80vh}
     </style>
   </head>
   <body>
     <h1>Portfolio</h1>
     <hr />
-    <table><tr>
-      <td><iframe src="https://openprocessing.org/sketch/2581880/embed/"></iframe></td>
-      <td rowspan="2"><iframe src="https://katek13.github.io/Poe/"></iframe></td></tr>
-      <tr><td><iframe src="https://openprocessing.org/sketch/2581959/embed/"></iframe></td>
-    </tr></table>
+    <div class="blowup"><iframe src="https://openprocessing.org/sketch/2581880/embed/"></iframe></div>
+    <div class="blowup"><iframe src="https://openprocessing.org/sketch/2581959/embed/"></iframe></div>
+    <div style="float:right;height:80vh"><iframe src="https://katek13.github.io/Poe/"></iframe></div>
   </body>
 </html>
